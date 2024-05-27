@@ -5,6 +5,6 @@ Known issues:
 
 Screenshots:
 
-![empty](https://github.com/tehscott/CVSTakeHome/assets/1985464/b1276227-67e4-402f-b949-ba2577562709)
-![search](https://github.com/tehscott/CVSTakeHome/assets/1985464/dbc5c57e-9be1-4107-adbd-4d3907193150)
-![details](https://github.com/tehscott/CVSTakeHome/assets/1985464/8734116c-e3b9-4fd0-973d-27df66261640)
+<img src="https://github.com/tehscott/CVSTakeHome/assets/1985464/b1276227-67e4-402f-b949-ba2577562709" width=50%>
+<img src="https://github.com/tehscott/CVSTakeHome/assets/1985464/dbc5c57e-9be1-4107-adbd-4d3907193150" width=50%>
+<img src="https://github.com/tehscott/CVSTakeHome/assets/1985464/8734116c-e3b9-4fd0-973d-27df66261640" width=50%>
