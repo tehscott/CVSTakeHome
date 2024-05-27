@@ -8,6 +8,7 @@ import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job
+import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import javax.inject.Inject
 
@@ -35,6 +36,7 @@ class SearchViewModel @Inject constructor(
 
         lastSearch?.cancel() // cancel previous search if it isn't already done
         lastSearch = launch {
+            delay(SEARCH_DELAY)
             isSearching.value = true
             searchResults.value = flickrHelper.search(text).orEmpty()
             isSearching.value = false
@@ -42,4 +44,8 @@ class SearchViewModel @Inject constructor(
     }
 
     fun onActiveChange(active: Boolean) {}
+
+    companion object {
+        private const val SEARCH_DELAY = 250L
+    }
 }
