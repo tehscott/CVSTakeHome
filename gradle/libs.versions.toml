@@ -3,7 +3,6 @@ agp = "8.3.2"
 converterGson = "2.9.0"
 coreTesting = "2.2.0"
 daggerVersion = "2.50"
-flickrjAndroid = "2.1.0"
 fragmentKtx = "1.7.1"
 gson = "2.10.1"
 hiltVersion = "1.2.0"
@@ -30,7 +29,6 @@ androidx-hilt-compiler = { module = "androidx.hilt:hilt-compiler", version.ref =
 androidx-hilt-navigation-compose = { module = "androidx.hilt:hilt-navigation-compose", version.ref = "hiltVersion" }
 androidx-material = { module = "androidx.compose.material:material", version.ref = "material" }
 converter-gson = { module = "com.squareup.retrofit2:converter-gson", version.ref = "converterGson" }
-flickrj-android = { module = "com.googlecode.flickrj-android:flickrj-android", version.ref = "flickrjAndroid" }
 gson = { module = "com.google.code.gson:gson", version.ref = "gson" }
 hilt-android = { module = "com.google.dagger:hilt-android", version.ref = "daggerVersion" }
 hilt-android-compiler = { module = "com.google.dagger:hilt-android-compiler", version.ref = "daggerVersion" }

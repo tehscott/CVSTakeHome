@@ -71,7 +71,6 @@ dependencies {
     debugImplementation(libs.androidx.ui.test.manifest)
 
     implementation(libs.androidx.material)
-    implementation(libs.flickrj.android)
 
     implementation (libs.kotlinx.coroutines.core)
     implementation (libs.kotlinx.coroutines.android)
@@ -82,7 +81,6 @@ dependencies {
     implementation (libs.retrofit)
     implementation (libs.converter.gson)
     implementation (libs.gson)
-
 
     implementation (libs.androidx.fragment.ktx)
 

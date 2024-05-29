@@ -111,7 +111,6 @@ fun DetailsView(
                                 .placeholder(R.drawable.placeholder)
                                 .size(Size.ORIGINAL)
                                 .build(),
-                            //placeholder = painterResource(id = R.drawable.placeholder),
                             contentDescription = photo.title,
                             contentScale = ContentScale.FillWidth,
                             alignment = Alignment.Center,

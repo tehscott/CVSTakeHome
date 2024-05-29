@@ -126,7 +126,6 @@ fun SearchView(navController: NavController) {
                 ) {
                     items(searchResults.value) { item ->
                         AsyncImage(
-                            //model = item.media.url,
                             model = ImageRequest.Builder(LocalContext.current)
                                 .data(item.media.url)
                                 .crossfade(true)
